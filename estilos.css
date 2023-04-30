@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: rgb(11, 169, 169);/*coloca un color en el fondo */
+
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+header {
+    background-color: rgb(42, 124, 124);/*coloca un color en el fondo */
+
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#img{
+
+    border: none;
+	border-radius: 5px;
+
+    padding: 20px;
+   
+  
+}
+#contacto{
+    position: absolute;
+  top: 180px;
+  right: 550px;
+    color: #f5eeee;
+  
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1300px;
+    background-image: url("imagen/descarga.jpeg");/*para usar una imagen de fondo*/
+    background-size:cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+footer {
+    background-color: rgb(11, 169, 169);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    color: #f0f0f0;
+}
+input {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(252, 241, 241, 0.2);
+}
+textarea {
+    border: none;
+	border-radius: 5px;
+    padding: 10px;
+	height: 80px;
+    width: 300px;
+}
